@@ -4,16 +4,16 @@ function Awards() {
   return (
     <div className="container mt-5">
       <div className="row">
-        <div className="col-6">
+        <div className="col-6 p-5">
           <img
             src="media/images/largestBroker.svg"
             alt="Awards img"
             className="mb-5"
           />
         </div>
-        <div className="col-6">
+        <div className="col-6 p-5 mt-5">
           <h1> Largest Brokerage in India </h1>
-          <p>
+          <p className="mb-5" >
             2+ million Zerodha clients contribute to over 15% of all retail
             order volumes in India daily by trading or investing in:
           </p>
@@ -21,21 +21,31 @@ function Awards() {
             <div className="col-6">
               <ul>
                 <li>
-                  <p>Stocks</p>
-                </li>
-                <li>
                   <p>Futures & Options</p>
                 </li>
                 <li>
-                  <p>Mutual Funds</p>
+                  <p>Commodity Derivatives</p>
                 </li>
                 <li>
-                  <p>Bonds</p>
+                  <p>Currency Derivatives</p>
                 </li>
               </ul>
             </div>
-            <div className="col-6"></div>
+            <div className="col-6">
+              <ul>
+                <li>
+                  <p>Stocks & IPO</p>
+                </li>
+                <li>
+                  <p>Direct Mutual Funds</p>
+                </li>
+                <li>
+                  <p>Bonds and Govt. Securities</p>
+                </li>
+              </ul> 
+            </div>
           </div>
+          <img src="media/images/pressLogos.png" alt="Press Logos" style={{width:"90%"}} />
         </div>
       </div>
     </div>
